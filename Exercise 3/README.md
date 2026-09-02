@@ -41,7 +41,7 @@ The website presents these insights through visualisations and explanatory text 
 
 ### Data Source
 
-The dataset used in this project contains information about **television models and their energy consumption characteristics**, including power usage, screen size, technology type, and efficiency ratings.
+The dataset used in this project contains information about **television models and their energy consumption characteristics**, including power usage, screen size, brand names and their respective sales.
 
 The dataset was provided as part of the course materials.
 
@@ -83,9 +83,7 @@ This project follows ethical data visualisation practices by:
 
 Artificial Intelligence (AI) tools may have been used to assist with aspects of this assignment, such as:
 
-- Generating example code
-- Improving code structure
-- Assisting with documentation writing
+- No AI tools were used for this part of the assignment.
 
 All AI-generated assistance was reviewed, modified where necessary, and integrated responsibly into the project.
 
