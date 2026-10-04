@@ -1,0 +1,96 @@
+<svg width="900" height="600" viewBox="0 0 900 600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Sky -->
+  <rect width="900" height="600" fill="#87CEEB"/>
+
+  <!-- Sun -->
+  <circle cx="350" cy="80" r="50" fill="#FFD700"/>
+
+  <!-- Clouds -->
+  <g fill="white">
+    <circle cx="180" cy="120" r="30"/>
+    <circle cx="210" cy="100" r="40"/>
+    <circle cx="250" cy="120" r="30"/>
+
+    <circle cx="500" cy="80" r="25"/>
+    <circle cx="530" cy="60" r="35"/>
+    <circle cx="570" cy="80" r="25"/>
+  </g>
+
+  <!-- Grass -->
+  <rect y="400" width="900" height="200" fill="#6BBF59"/>
+
+  <!-- House -->
+  <g>
+    <!-- Main house -->
+    <rect x="300" y="220" width="250" height="180" fill="#c3bb6a"/>
+
+    <!-- Roof -->
+    <polygon points="275,220 425,120 575,220" fill="#EA3455"/>
+
+    <rect x="500" y="150" width="40" height="60" fill="#EA3455"/>
+
+    <!-- Door -->
+    <rect x="400" y="300" width="50" height="100" fill="#4d0b27"/>
+    <circle cx="440" cy="350" r="4" fill="#FFD700"/>
+
+    <!-- Windows -->
+    <g id="windows" transform="translate(0, -30)">
+    <rect x="335" y="270" width="50" height="50" fill="#ADD8E6" stroke="darkblue"/>
+    <line x1="360" y1="270" x2="360" y2="320" stroke="darkblue"/>
+    <line x1="335" y1="295" x2="385" y2="295" stroke="darkblue"/>
+
+    <rect x="465" y="270" width="50" height="50" fill="#ADD8E6" stroke="darkblue"/>
+    <line x1="490" y1="270" x2="490" y2="320" stroke="darkblue"/>
+    <line x1="465" y1="295" x2="515" y2="295" stroke="darkblue"/>
+    </g>
+  </g>
+
+  <!-- Path -->
+  <polygon points="410,400 440,400 520,600 330,600"
+           fill="#C0C0C0"/>
+
+  <!-- Tree -->
+  <g>
+    <rect x="130" y="290" width="30" height="110" fill="#8B4513"/>
+    <circle cx="145" cy="250" r="50" fill="#228B22"/>
+    <circle cx="110" cy="280" r="40" fill="#2E8B57"/>
+    <circle cx="180" cy="280" r="40" fill="#2E8B57"/>
+  </g>
+
+  <!-- Second Tree -->
+  <g>
+    <rect x="700" y="300" width="30" height="100" fill="#8B4513"/>
+    <circle cx="715" cy="260" r="45" fill="#228B22"/>
+    <circle cx="685" cy="285" r="35" fill="#2E8B57"/>
+    <circle cx="745" cy="285" r="35" fill="#2E8B57"/>
+  </g>
+
+  <!-- Flower Garden -->
+  <g>
+    <!-- Flower 1 -->
+    <line x1="220" y1="450" x2="220" y2="500" stroke="green" stroke-width="3"/>
+    <circle cx="220" cy="440" r="12" fill="red"/>
+    <circle cx="208" cy="440" r="8" fill="pink"/>
+    <circle cx="232" cy="440" r="8" fill="pink"/>
+    <circle cx="220" cy="428" r="8" fill="pink"/>
+    <circle cx="220" cy="452" r="8" fill="pink"/>
+
+    <!-- Flower 2 -->
+    <line x1="280" y1="460" x2="280" y2="510" stroke="green" stroke-width="3"/>
+    <circle cx="280" cy="450" r="12" fill="orange"/>
+    <circle cx="268" cy="450" r="8" fill="yellow"/>
+    <circle cx="292" cy="450" r="8" fill="yellow"/>
+    <circle cx="280" cy="438" r="8" fill="yellow"/>
+    <circle cx="280" cy="462" r="8" fill="yellow"/>
+
+    <!-- Flower 3 -->
+    <line x1="640" y1="450" x2="640" y2="500" stroke="green" stroke-width="3"/>
+    <circle cx="640" cy="440" r="12" fill="blue"/>
+    <circle cx="628" cy="440" r="8" fill="#B0E0E6"/>
+    <circle cx="652" cy="440" r="8" fill="#B0E0E6"/>
+    <circle cx="640" cy="428" r="8" fill="#B0E0E6"/>
+    <circle cx="640" cy="452" r="8" fill="#B0E0E6"/>
+  </g>
+
+</svg>
